@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chatco/static/css/main.166c9032.css",
+    "main.js": "/chatco/static/js/main.d5c6875f.js",
+    "static/media/chat-background.jpg": "/chatco/static/media/chat-background.9e8bacad9f1228c58b2a.jpg",
+    "index.html": "/chatco/index.html",
+    "main.166c9032.css.map": "/chatco/static/css/main.166c9032.css.map",
+    "main.d5c6875f.js.map": "/chatco/static/js/main.d5c6875f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.166c9032.css",
+    "static/js/main.d5c6875f.js"
+  ]
+}
