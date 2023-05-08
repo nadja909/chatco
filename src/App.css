@@ -1,0 +1,110 @@
+.App {
+  background-image: url('./chat-background.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; 
+}
+
+.App-header {
+  background-color: #d1dcffa2;
+  overflow: visible;
+  width: 61.5%;
+  text-align: center;
+  color: rgb(81, 55, 159);
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.Messages-list {
+  background-color: #f8f2f2c9;
+  padding: 20px 0;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.Messages-message {
+  display: flex;
+  margin-top: 10px;
+ 
+}
+
+.Messages-message.currentMember {
+  /*justify-content: flex-end;*/
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.Message-content {
+  display: inline-block;
+}
+
+.currentMember > .Message-content {
+  align-items: flex-end;
+}
+
+.Messages-message > .avatar {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px -10px;
+}
+
+.Message-content > .username {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 4px;
+  font-weight: 500;
+  color: rgb(57, 33, 58);
+}
+
+.Message-content > .data {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0;
+  border-radius: 12px;
+  background-color: rgba(103, 143, 217, 0.816);
+  color: white;
+  display: inline-block;
+}
+
+.currentMember > .Message-content .data {
+  background-color: rgba(231, 137, 195, 0.81);
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 3px solid #d1dcff;
+  flex-grow: 1;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgb(141, 178, 224);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
